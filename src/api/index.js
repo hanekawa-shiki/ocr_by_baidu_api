@@ -19,14 +19,3 @@ export const getOcrData = ({ params, data }) => {
     }
   });
 };
-export const gethtml = () => {
-  return axios({
-    method: 'POST',
-    url: 'https://baidu.com',
-    // params,
-    // data,
-    // headers: {
-    //   'Content-Type': 'application/x-www-form-urlencoded'
-    // }
-  });
-};
